@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="site.css">
 </head>
 <body>
     <header class="bg-primary text-white text-center p-4">
@@ -21,61 +22,74 @@
             </button>
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#info">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#noticias">Noticias</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#profesionales">Profesionales</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profesionales.html">Profesionales</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    
-    <main class="container my-4">
-        <section id="info" class="mb-4">
-            <h2>Sobre Nosotros</h2>
-            <p>Somos una firma legal con amplia trayectoria, reconocimientos y alianzas estratégicas.</p>
-        </section>
-        
-        <section id="servicios" class="mb-4">
-            <h2>Nuestros Servicios</h2>
-            <ul>
-                <li>Asesoría en derecho corporativo</li>
-                <li>Consultoría en normativas legales</li>
-                <li>Defensa y representación jurídica</li>
-            </ul>
-        </section>
-        
-        <section id="noticias" class="mb-4">
-            <h2>Noticias de Interés</h2>
-            <p>Mantente informado sobre las últimas actualizaciones del sector legal.</p>
-        </section>
-        
-        <section id="profesionales" class="mb-4">
-            <h2>Nuestro Equipo</h2>
-            <p>Conoce a nuestros abogados expertos en distintas ramas del derecho.</p>
-        </section>
-        
-        <section id="contacto" class="mb-4">
-            <h2>Contacto</h2>
-            <form>
-                <div class="mb-3">
-                    <label for="nombre" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" required>
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Correo Electrónico</label>
-                    <input type="email" class="form-control" id="email" required>
-                </div>
-                <div class="mb-3">
-                    <label for="mensaje" class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="mensaje" rows="4" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
-        </section>
-    </main>
-    
+    <div class="container mt-5">
+        <h1 class="text-center">Frameworks y herramientas para diseño web responsive</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>1️⃣ Bootstrap</h3>
+                <p>Framework CSS y JavaScript para diseño responsivo.</p>
+                <ul>
+                    <li>✅ Sistema de columnas flexible (Grid System).</li>
+                    <li>✅ Amplia variedad de componentes predefinidos.</li>
+                    <li>✅ Compatible con la mayoría de navegadores modernos.</li>
+                </ul>
+                <p><a href="https://getbootstrap.com" target="_blank">Sitio web</a></p>
+            </div>
+            <div class="col-md-6">
+                <h3>2️⃣ Tailwind CSS</h3>
+                <p>Framework CSS basado en utilidades.</p>
+                <ul>
+                    <li>✅ Mayor control sobre los estilos.</li>
+                    <li>✅ Facilita la creación de diseños modernos.</li>
+                    <li>✅ Compatible con clases responsivas.</li>
+                </ul>
+                <p><a href="https://tailwindcss.com" target="_blank">Sitio web</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>3️⃣ Materialize CSS</h3>
+                <p>Framework basado en Material Design.</p>
+                <ul>
+                    <li>✅ Estética moderna y profesional.</li>
+                    <li>✅ Componentes optimizados para móviles.</li>
+                </ul>
+                <p><a href="https://materializecss.com" target="_blank">Sitio web</a></p>
+            </div>
+            <div class="col-md-6">
+                <h3>4️⃣ Foundation</h3>
+                <p>Framework CSS con enfoque en accesibilidad.</p>
+                <ul>
+                    <li>✅ Grid system avanzado y flexible.</li>
+                    <li>✅ Componentes accesibles.</li>
+                </ul>
+                <p><a href="https://get.foundation" target="_blank">Sitio web</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h3>5️⃣ jQuery</h3>
+                <p>Biblioteca JavaScript para manipulación del DOM.</p>
+                <ul>
+                    <li>✅ Simplifica el uso de JavaScript.</li>
+                    <li>✅ Compatibilidad con todos los navegadores modernos.</li>
+                    <li>✅ Permite agregar interactividad fácilmente.</li>
+                </ul>
+                <p><a href="https://jquery.com" target="_blank">Sitio web</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <footer class="bg-dark text-white text-center p-3">
         <p>&copy; 2025 Te Apoyamos SAS - Todos los derechos reservados.</p>
     </footer>
